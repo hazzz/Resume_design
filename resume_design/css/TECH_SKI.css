@@ -1,0 +1,37 @@
+
+.Tech_skill{
+    width: auto;
+    height:460px;
+    background-color: #e6795c;
+    border-bottom: 3px solid #e6795c;
+}
+.Tech_skill h3{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'microsoft yahei';
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+    color: #ffffff;
+}
+
+.Tech_skill h4{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'microsoft yahei';
+    font-size: 25px;
+    position: relative;
+    top:35px;
+    color: #ffffff;
+}
+
+.Tech_skill .edu_course{
+    width: 1000px;
+    height:400px;
+    margin: 0 auto;
+    margin-top:70px;
+    background-image: url(../img/tech_skill2.png);
+    background-repeat: no-repeat;
+}

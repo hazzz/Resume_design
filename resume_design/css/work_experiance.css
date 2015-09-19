@@ -1,0 +1,96 @@
+
+.work_exp{
+    width: auto;
+    height:840px;
+    background-color: #f0eeea;
+    border-bottom: 6px solid #474441;
+}
+
+.work_exp h3{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'microsoft yahei';
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+    color: #65625f;
+    bottom: 10px;
+}
+.work_exp_cont{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.work_exp .list_left,.arrows,.company_name,.experiance_cont{
+    height: 650px;
+    /*border:1px solid #e6795c;*/
+    float: left;
+}
+.work_exp .list_left{
+    width: 200px;
+}
+.work_exp .list_left .work_exp_time,.work_exp_time1{
+    width: 160px;
+    height: 50px;
+    background-color: #e6795c;
+    margin-left: 40px;
+    margin-bottom: 150px;
+}
+.work_exp .list_left .work_exp_time1{
+    margin-top: 38px;
+}
+.work_exp .list_left p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'microsoft yahei'
+}
+
+.work_exp .arrows{
+    width: 80px;
+    margin-left: 10px;
+    background-image: url(../img/work_exp/arrow_03.png);
+    background-repeat: no-repeat;
+}
+.work_exp .experiance_cont{
+    width: 690px;
+    margin-left: 10px;
+}
+.work_exp .experiance_cont .work_exp_del1,.work_exp_del{
+     width: 670px;
+     height:180px;
+     margin-left: 10px;
+     margin-bottom: 17px;
+     border:1px solid #e6795c;
+     background-color: #ffffff;
+ }
+
+.work_exp .experiance_cont .work_exp_del1{
+    margin-top: 38px;
+}
+
+.work_exp .experiance_cont .del_tit,.char_del,.con_del{
+    margin-left: 20px;
+}
+.work_exp .experiance_cont .del_tit{
+    font-size: 22px;
+    color:#e6795c;
+    margin-top: 15px;
+    font-family: 'microsoft yahei';
+}
+.work_exp .experiance_cont .char_del{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #1b1918;
+    font-family: 'microsoft yahei';
+}
+.work_exp .experiance_cont .con_del{
+    width:630px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #636160;
+    font-family: 'microsoft yahei';
+}

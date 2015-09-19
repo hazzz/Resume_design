@@ -1,0 +1,33 @@
+
+
+.navigation{
+    width: auto;
+    height: 50px;
+    background-color: #e6795c;
+    /*position: fixed;*/
+    /*z-index:100;*/
+    /*top:0;*/
+    /*border-bottom: 6px solid #e6795c;*/
+}
+.navigation .nav_character{
+    width: 1000px;
+    margin: 0 auto;
+}
+.navigation .nav_character li{
+    float: left;
+}
+.navigation .nav_character li a{
+    display: block;
+    font-family: 'microsoft yahei';
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    text-decoration:none;
+    color: #ffffff;
+    line-height:45px;
+    text-align: center;
+    margin-left: 15px;
+}
+.navigation .nav_character li a:hover {
+    background-color: #fc8862;
+}

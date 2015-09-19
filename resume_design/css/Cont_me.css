@@ -1,0 +1,183 @@
+
+
+.Cont_me{
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    width: auto;
+    height:230px;
+    background-color: #f0eeea;
+}
+.Cont_me h3{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+    color: #65625f;}
+.Cont_me .cont_content{
+    width: auto;
+    height:102px;
+}
+.Cont_me .subheading {
+    font-size: 18px;
+    width: 532px;
+    color: #65625f;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+
+
+.Cont_me .subheading .Cont_Name,.Cont_Email,.Cont_Message,.Cont_Send{
+    font-family: "Microsoft Yahei";
+    height: 36px;
+    width:516px;
+    margin-top:20px;
+    padding-left:14px;
+    border: 1px solid #bebbba;
+}
+.Cont_me .subheading .Cont_Message{
+    font-family: "Microsoft Yahei";
+    font-size:13px;
+    height: 100px;
+    line-height:40px;
+    resize: none;
+}
+/*.Cont_me .subheading .Cont_Name{*/
+    /*background-image: url(../img/Cont_me/user.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 6px center;*/
+    /*background-size:26px;*/
+/*}*/
+/*.Cont_me .subheading .Cont_Email{*/
+    /*background-image: url(../img/Cont_me/email.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position:6px center;*/
+    /*background-size:26px;*/
+
+/*}*/
+
+.Cont_me .subheading .Cont_Send{
+    background-image: url(../img/Cont_me/send.png);
+    background-repeat: no-repeat;
+    background-position:6px center;
+    float: left;
+    background-size:26px;
+    width: 150px;
+    background-color: #e6795c;
+    color:#ffffff;
+    border: 1px solid #e6795c;
+    border-radius: 3px;
+}
+.Cont_me .subheading .Cont_Send:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 2px #9e9b9a;
+}
+.Cont_me .subheading .Cont_Send:active{
+    background-color: #e6955e;
+}
+
+
+.Cont_me .follow {
+    color: #65625f;
+    font-size: 26px;
+    width:430px;
+    margin: 0 auto;
+    margin-top:20px;
+    position: relative;
+    left: 20px;
+}
+
+
+.Cont_me .follow .link{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    background-color: #e6795c;
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #e6795c;
+    border-radius: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Cont_me .follow .link1{
+    position: relative;
+    left:38px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top:21px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.Cont_me .follow .link:hover{
+    background-color: #e23b20;
+}
+.Cont_me .follow .email_link{
+    background-image: url(../img/ICONS/ICON_03.png);
+}
+.Cont_me .follow .weibo_link{
+    background-image: url(../img/ICONS/ICON_05.png);
+}
+.Cont_me .follow .qq_link{
+    background-image: url(../img/ICONS/ICON_07.png);
+}
+.Cont_me .follow .wechat_link{
+    background-image: url(../img/ICONS/ICON_09.png);
+}
+.Cont_me .wechat_link_popup{
+    display: none;
+    position: relative;
+    left: 80px;
+    top: -62px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #ffffff;
+    background-image: url(../img/Cont_me/wechart_pho_4_03.png);
+    background-size: cover;
+    z-index: 200;
+}
+.Cont_me .qq_link_popup{
+    display: none;
+    position: relative;
+    left: 165px;
+    top: -62px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #ffffff;
+    background-image: url(../img/Cont_me/qq_photo_2_03.png);
+    background-size: cover;
+    z-index: 200;
+}
+.Cont_me .email_link_popup{
+    display: none;
+    position: relative;
+    left: -210px;
+    top: -2px;
+    width: 188px;
+    height: 67px;
+    border: 5px solid #ffffff;
+    background-image: url(../img/Cont_me/email_link_photo.png);
+    background-size: cover;
+    z-index: 200;
+}
+.copyright{
+    width: auto;
+    height: 60px;
+    background: #393939;
+}
+.copyright p{
+    font-family: 'microsoft yahei';
+    position: relative;
+    font-size: 13px;
+    top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+

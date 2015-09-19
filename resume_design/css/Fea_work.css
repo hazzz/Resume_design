@@ -1,0 +1,150 @@
+
+.Fea_work{
+    font-family: 'microsoft yahei';
+    width: auto;
+    height:900px;
+    /*background-color: #c7c7c7;*/
+    border-bottom: 6px solid #e6795c;
+    background-image:url(../img/wenli2.png);
+}
+
+.Fea_work h3{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'microsoft yahei';
+    font-size: 40px;
+    position: relative;
+    top:55px;
+    color: #65625f;}
+
+.Fea_work h4{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'microsoft yahei';
+    font-size: 25px;
+    position: relative;
+    top:65px;
+    color: #7d7a77;
+}
+
+.Fea_work .Fea_course{
+    margin: 0 auto;
+    margin-top: 110px;
+    width: 1000px;
+    height:700px;
+}
+
+.Fea_work .Fea_course .more_works a{
+    display:block;
+    float: right;
+    margin-top: 20px;
+    text-decoration:none;
+    font-family: 'microsoft yahei';
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Fea_work .Fea_course .more_works a:hover{
+    color: #e6795c;
+}
+
+.Fea_work .Fea_course .pop_box{
+    /*border: 7px solid #e23b20;*/
+    background-color: #131110;
+    width:1000px;
+    height:600px;
+    z-index:800;
+    position: absolute;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.Fea_work .Fea_course .pop_box .close{
+     background:url(../img/fea_work/Close_but.png);
+     width: 64px;
+     height:64px;
+     z-index:200;
+     position: absolute;
+     float: right;
+     top: 4px;
+     right: 4px;
+     cursor: pointer;
+}
+
+.Fea_work .Fea_course .pop_box .close:hover{background:url(../img/fea_work/Cloes_but_hover.png);}
+
+.Fea_work .Fea_course .Fea_cont{
+    width: 1000px;
+    height:202px;
+}
+.Fea_work .Fea_course .Fea_cont p{float: left;}
+
+.Fea_work .Fea_course .Fea_cont .fea_cont_del,.fea_cont_del0{
+    margin-left: 2px;
+    width: 330px;
+    height:200px;
+    background-color: #d3d0cf;
+    float: left;
+}
+
+.Fea_work .Fea_course .Fea_cont .fea_cont_del1{
+    background-image: url(../img/fea_works/1-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del2{
+    background-image: url(../img/fea_works/3-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del3{
+    background-image: url(../img/fea_works/2-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del4{
+    background-image: url(../img/fea_works/5-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del5{
+    background-image: url(../img/fea_works/7-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del6{
+    background-image: url(../img/fea_works/8-1-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del7{
+    background-image: url(../img/fea_works/4-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del8{
+    background-image: url(../img/fea_works/6-1.png);
+}
+.Fea_work .Fea_course .Fea_cont .fea_cont_del9{
+    background-image: url(../img/fea_works/9.png);
+}
+
+.Fea_work .Fea_course .Fea_cont .masking{
+    cursor: pointer;
+    display: none;
+    width: 330px;
+    height:200px;
+    /*border:1px solid #e6795c;*/
+    background-color: #1b1918;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 100;
+}
+.Fea_work .Fea_course .Fea_cont .fea_describe{
+    margin-top: 140px;
+    display: none;
+    width: 330px;
+    height:60px;
+    /*border:1px solid #e6795c;*/
+    background-color: #e6795c;
+    position: absolute;
+    z-index: 110;
+}
+.Fea_work .Fea_course .Fea_cont .fea_describe p{
+    width: 280px;
+    height:36px;
+    font-size: 14px;
+    color: #ffffff;
+    position:relative;
+    top: 8px;
+    left: 20px;
+}

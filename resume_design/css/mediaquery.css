@@ -1,0 +1,14 @@
+
+
+@media screen and (min-width: 1400px) {
+    #head{height:900px;}
+    #head .background_photo{height:780px;}
+    #head .Introduce{
+        position: relative;
+        top:360px;
+    }
+    #head .background_photo .bac_masking{
+        position: absolute;
+        height: 780px;
+    }
+}
